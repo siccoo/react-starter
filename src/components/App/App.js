@@ -2,7 +2,7 @@ import styles from "./styles.module.css"
 
 export const App = () => {
   return (
-  <div>
+  <div className={styles.main}>
     Hello
   </div>
   );
